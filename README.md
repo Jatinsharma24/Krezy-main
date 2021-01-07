@@ -1,8 +1,6 @@
-Hello Plss subscribe my yt channel
+Hello, this project is made with love by:
 
-        Yashraj Gaming
-
-
+        Cool dude 69
 
 For sorce code join our discord server
 Link-[https://discord.gg/wdactqv]()
