@@ -9,7 +9,7 @@ client.db = require("quick.db");
 client.on("ready", async () => {
   console.log(`ready!`);
   client.user
-    .setActivity(`$for help,M$for🎶,G$for giveaway,E$for💷`, {
+    .setActivity(`$ for help`, {
       type: "PLAYING"
     })
     .catch(error => console.log(error));
