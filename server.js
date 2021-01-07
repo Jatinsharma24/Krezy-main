@@ -10,7 +10,7 @@ client.on("ready", async () => {
   console.log(`ready!`);
   client.user
     .setActivity(`$ for help`, {
-      type: "PLAYING"
+      type: "Listening"
     })
     .catch(error => console.log(error));
 });
