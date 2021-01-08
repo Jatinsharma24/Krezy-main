@@ -7,24 +7,33 @@ module.exports = {
   aliases: ["h"],
   description: "Help Command!",
   usage: "Help | <Command Name>",
-  run: async(client, message, args) => {
-    
+  run: async (client, message, args) => {
     message.delete();
-    
+
     let embed = new MessageEmbed()
-    .setColor(Color)
-    .setTitle(`${client.user.username} Commands!`)
-    .setDescription(`Use ${Prefix}Help <Command Name> For More Command Information!` + 
-    "\n\n**Fun**\n`Avatar, Coinflip, Howgay, Meme, Rate, 8ball, Dicksize, Ascii, Choose, Hack, Randomnumber`"
-     + "\n\n"+"**Moderation**\n`Clear, Mute, Unmute, Tempmute, Kick, Ban, Unban, Tempban, Warn, Warnings, ResetWarns`" 
-     + "\n\n"+"**Information**\n`Help, Covid, Weather, Userinfo, Serverinfo, Ping`"
-     + "\n\n"+"**Music Commands** \n`M$help for Music Commands`"
-     + "\n\n"+"**Giveaway Commands** \n`G$help for Giveaway Commands`"
-     + "\n\n"+"**Economy Commands** \n`E$help for Economy Commands`"
-     + "\n\n"+"**Welcome Setup** \n`$welhelp for Welcome Setup`")
-    .setFooter(`To get info of each command you can do $help [command] | Hander by Cööl dude 69`)
-    .setTimestamp();
-    
+      .setColor(Color)
+      .setTitle(`${client.user.username} Commands!`)
+      .setDescription(
+        `Use ${Prefix}Help <Command Name> For More Command Information!` +
+          "\n\n**Fun**\n`Avatar, Coinflip, Howgay, Meme, Rate, 8ball, Dicksize, Ascii, Choose, Hack, Randomnumber`" +
+          "\n\n" +
+          "**Moderation**\n`Clear, Mute, Unmute, Tempmute, Kick, Ban, Unban, Tempban, Warn, Warnings, ResetWarns`" +
+          "\n\n" +
+          "**Information**\n`Help, Covid, Weather, Userinfo, Serverinfo, Ping`" +
+          "\n\n" +
+          "**Music Commands** \n`M$help for Music Commands`" +
+          "\n\n" +
+          "**Giveaway Commands** \n`G$help for Giveaway Commands`" +
+          "\n\n" +
+          "**Economy Commands** \n`E$help for Economy Commands`" +
+          "\n\n" +
+          "**Welcome Setup** \n`Coming soon!`"
+      )
+      .setFooter(
+        `To get info of each command you can do $help [command] | Hander by Cööl dude 69`
+      )
+      .setTimestamp();
+
     if (!args.length) return message.channel.send(embed);
 
     let cmd =
