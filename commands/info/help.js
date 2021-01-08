@@ -19,7 +19,8 @@ module.exports = {
     "**Information**\n`Help, Covid, Weather, Userinfo, Serverinfo, Ping`"
      + "\n\n"+"Music Commands \n`M$help for Music Commands`"
      + "\n\n"+"Giveaway Commands \n`G$help for Giveaway Commands`"
-     + "\n\n"+"Economy Commands \n`E$help for Economy Commands`")
+     + "\n\n"+"Economy Commands \n`E$help for Economy Commands`"
+     + "\n\n"+"Bot Owner \n`Cóöl Düdé <⁶⁹>#5158`")
     .setFooter(`Requested By ${message.author.username}`)
     .setTimestamp();
     
