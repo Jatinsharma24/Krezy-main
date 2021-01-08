@@ -11,7 +11,7 @@ module.exports = {
   run: async (client, message, args) => {
     //Start
     message.delete();
-    fetch("https://meme-api.herokuapp.com/gimme")
+    fetch("https://meme-api.herokuapp.com/gimme/India")
       .then(res => res.json())
       .then(json => {
         let embed = new MessageEmbed()
