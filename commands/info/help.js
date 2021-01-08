@@ -30,7 +30,7 @@ module.exports = {
           "**Welcome Setup** \n`Coming soon!`"
       )
       .setFooter(
-        `To get info of each command you can do $help [command] | Hander by Cööl dude 69`
+        `To get info of each command you can do $help [command] | Handle by Cööl dude 69`
       )
       .setTimestamp();
 
