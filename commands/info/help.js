@@ -21,9 +21,9 @@ module.exports = {
      + "\n\n"+"**Music Commands** \n`M$help for Music Commands`"
      + "\n\n"+"**Giveaway Commands** \n`G$help for Giveaway Commands`"
      + "\n\n"+"**Economy Commands** \n`E$help for Economy Commands`"
-     + "\n\n"+"**Welcome Setup** \n`wel$help for Welcome Setup`"
-     + "\n\n"+"**Bot Owner** \n`Cóöl Düdé <⁶⁹>#5158`")
-    .setFooter(`Requested By ${message.author.username}`)
+     + "\n\n"+"**Welcome Setup** \n`$welhelp for Welcome Setup`"
+     + "\n\n"+"**Bot Handler** \n`Cóöl Düdé <⁶⁹>#5158`")
+    .setFooter(`To get info of each command you can do $help [command] | Hander by Cööl dude 69`)
     .setTimestamp();
     
     if (!args.length) return message.channel.send(embed);
