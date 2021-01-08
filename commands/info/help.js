@@ -20,7 +20,7 @@ module.exports = {
      + "\n\n"+"**Music Commands** \n`M$help for Music Commands`"
      + "\n\n"+"**Giveaway Commands** \n`G$help for Giveaway Commands`"
      + "\n\n"+"**Economy Commands** \n`E$help for Economy Commands`"
-      + "\n\n"+"**Welcome Setup** \n`wel$help for Welcome Setup (Openning to Public Soon)`**Cool Dude Openning Soon #Bunny"
+     + "\n\n"+"**Welcome Setup** \n`wel$help for Welcome Setup (5 Minutes)`"
      + "\n\n"+"**Bot Owner** \n`Cóöl Düdé <⁶⁹>#5158`")
     .setFooter(`Requested By ${message.author.username}`)
     .setTimestamp();
