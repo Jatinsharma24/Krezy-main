@@ -27,6 +27,8 @@ module.exports = {
           "\n\n" +
           "**Economy Commands** \n`E$help for Economy Commands`" +
           "\n\n" +
+          "**Reaction roles** \n`r.help for reaction roles commands`" +
+          "\n\n" +
           "**Welcome Setup** \n`Coming soon!`"
       )
       .setFooter(
