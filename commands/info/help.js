@@ -29,11 +29,9 @@ module.exports = {
           "\n\n" +
           "**Reaction roles** \n`r$help for reaction roles commands`" +
           "\n\n" +
-          "**Entrance/Exit Setup.(beta)** \n`W$help for welcome setup!, Leave$help for exit setup!`"
+          "**Entrance/Exit Setup.** \n`W$help for welcome setup!, Leave$help for exit setup!`"
       )
-      .setFooter(
-        `To get info of each command you can do $help [command] | Handle by Cööl dude 69`
-      )
+      .setFooter(`Handle by Cööl dude 69`)
       .setTimestamp();
 
     if (!args.length) return message.channel.send(embed);
