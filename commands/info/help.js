@@ -29,7 +29,7 @@ module.exports = {
           "\n\n" +
           "**Reaction roles** \n`r$help for reaction roles commands`" +
           "\n\n" +
-          "**Entrance/Exit Setup.** \n`W$help for welcome setup!, Leave$help for exit setup!`"
+          "**Entrance/Exit Setup.(beta)** \n`W$help for welcome setup!, Leave$help for exit setup!`"
       )
       .setFooter(`Handle by Cööl dude 69`)
       .setTimestamp();
