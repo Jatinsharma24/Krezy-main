@@ -27,7 +27,7 @@ module.exports = {
           "\n\n" +
           "**Economy Commands** \n`E$help for Economy Commands`" +
           "\n\n" +
-          "**Reaction roles** \n`r.help for reaction roles commands`" +
+          "**Reaction roles** \n`r$help for reaction roles commands`" +
           "\n\n" +
           "**Welcome Setup** \n`W$help for welcome setup!`"
       )
