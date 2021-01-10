@@ -15,11 +15,11 @@ module.exports = {
       .setTitle(`${client.user.username} Commands!`)
       .setDescription(
         `Use ${Prefix}Help <Command Name> For More Command Information!` +
-          "\n\n**Fun**\n`Avatar, Coinflip, Howgay, Meme, Rate, 8ball, Dicksize, Ascii, Choose, Hack, Randomnumber`" +
+          "\n\n**Fun**\n`Avatar, Coinflip, Howgay, Meme, Rate, 8ball, Dicksize, Ascii, Hack, Randomnumber, ytsearch, gsearch, creatememes, question, kiss, slap, waifu, tinder, trigger, say, buzz`" +
           "\n\n" +
-          "**Moderation**\n`Clear, Mute, Unmute, Tempmute, Kick, Ban, Unban, Tempban, Warn, Warnings, ResetWarns`" +
+          "**Moderation**\n`Clear, Mute, Unmute, Tempmute, Kick, Ban, Unban, Tempban, Warn, Warnings, ResetWarns, addemoji`" +
           "\n\n" +
-          "**Information**\n`Help, Covid, Weather, Userinfo, Serverinfo, Ping`" +
+          "**Information**\n`Help, Covid, Weather, whois, Serverinfo, Ping`" +
           "\n\n" +
           "**Music Commands** \n`M$help for Music Commands`" +
           "\n\n" +
