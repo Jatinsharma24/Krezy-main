@@ -15,9 +15,9 @@ module.exports = {
       .setTitle(`${client.user.username} Commands!`)
       .setDescription(
         `Use ${Prefix}Help <Command Name> For More Command Information!` +
-          "\n\n**Fun**\n`Avatar, Coinflip, Howgay, Meme, Rate, 8ball, Dicksize, Ascii, Hack, Randomnumber, ytsearch, gsearch, creatememe, question, kiss, slap, waifu, tinder, trigger, say, buzz, miss, relationship, sad, rip, kill, enemoji (enlarge emoji), td(thruth or dare), invert`" +
+          "\n\n**Fun**\n`Avatar, Coinflip, Howgay, Meme, Rate, 8ball, Dicksize, Ascii, Hack, Randomnumber, ytsearch, gsearch, creatememe, question, kiss, slap, waifu, tinder, trigger, say, buzz, miss,  relationship, sad, rip, kill, enemoji (enlarge emoji), td(thruth or dare), invert, hug, thanks, welcome, stonk, water`" +
           "\n\n" +
-          "**Moderation**\n`Clear, Mute, Unmute, Tempmute, Kick, Ban, Unban, Tempban, Warn, Warnings, ResetWarns, addemoji`" +
+          "**Moderation**\n`Clear, Mute, Unmute, Tempmute, Kick, Ban, Unban, Tempban, Warn, Warnings, addemoji`" +
           "\n\n" +
           "**Information**\n`Help, Covid, Weather, whois, Serverinfo, Ping`" +
           "\n\n" +
